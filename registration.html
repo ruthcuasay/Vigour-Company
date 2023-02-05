@@ -1,0 +1,77 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="reserv1.css">
+<link rel="stylesheet" type="text/css" href="nav.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>  
+
+
+<header>
+    <div class="gallery">
+      
+      <nav>
+
+        <ul>
+          <li><h1><span style="color:#172B34">Vigour </span><span style="color:#21cdd3"> Company</span></h1></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="front.html">Anatomy</a></li>
+          <li><a href="nutrition2.html">Nutrition Guide</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="gallery2.html">Gallery</a></li>
+          <li><a href="registration.html">Booking</a></li>
+          
+        </ul>
+      </nav>
+      </div>
+  </header>
+<body>  
+<form action="Member.php" method="POST">  
+  <div class="container">  
+  <center>  <h2> Kids Reservation Form</h2> </center>  
+  <hr>  
+  <label> Firstname </label>   
+ <input type="text" name="fname" placeholder= "Firstname" size="15"  required class="name" required />   
+
+<label> Middlename: </label>   
+<input type="text" name="mname" placeholder="Middlename" size="15"  required class="name" required />   
+
+<label> Lastname: </label>    
+<input type="text" name="lname" placeholder="Lastname" size="15"  required class="name" required /> 
+<label> Birthdate: </label>  
+<input type="text" name="bdate" placeholder="Birthdate" size="15"  required class="name" required/>
+<div> 
+ <div class="input_group"> 
+<label>   
+Session :  
+</label>   
+  
+<select name="session" required>  
+<option value="Session">Session</option>  
+<option value="FS">Full Session</option>  
+<option value="HS">Half Session</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+Gender :  
+</label> 
+<input type="radio" value="M" name="gender" required class="dob" checked > Male   
+<input type="radio" value="F" name="gender" required class="dob" > Female   
+  
+</div>  
+</div>
+<label>   
+Guardian's Phone :  
+</label>  
+<input type="text" name="code" placeholder="Country Code"  value="+639" size="2"  required class="name">   
+Current Address :  
+<textarea cols="80" rows="5" name="address" placeholder="Current Address" value="address"  required class="name" required>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required class="name"  required>   
+ <button type="submit" class="reservbtn">Submit</button> 
+ <button class="reservbtn" onclick="window.location.href='hompage.html'">Cancel</button>   
+</form>  
+</body>  
+</html> 

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="videos.css">
+	 <link rel="stylesheet" type="text/css" href="nav.css">
+	<title>Videos</title>
+</head>
+
+
+	<header>
+    <div class="gallery">
+      
+      <nav>
+
+        <ul>
+          <li><h1><span style="color:#172B34">Vigour </span><span style="color:#21cdd3"> Company</span></h1></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="front.html">Anatomy</a></li>
+          <li><a href="nutrition2.html">Nutrition Guide</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="gallery2.html">Gallery</a></li>
+          <li><a href="registration.html">Booking</a></li>
+          
+        </ul>
+      </nav>
+  </div>
+</header>
+<body>
+	<div class="container">
+		<h2>Fitness Exercise for Kids</h2>
+		<div class="row">
+			<div class="col">
+				<div class="feature-img">
+					<img src="Excercise.png" width="100%">
+					<img src="play.png" class="play-btn" onclick="playVideo('videoplayback.mp4')">
+
+				</div>
+
+				
+			</div>
+			<div class="col">
+				<div class="small-img-row">
+					<div class="small-img">
+					<img src="pic4.png">
+					<img src="play.png" class="play-btn" onclick="playVideo('videoplayback (1).mp4')">
+				</div>
+				<p style="color: #fff">Kids Workout Video</p>
+			</div>
+			<div class="small-img-row">
+					<div class="small-img">
+					<img src="pic2.png">
+					<img src="play.png" class="play-btn" onclick="playVideo('videoplayback (2).mp4')">
+				</div>
+				<p style="color: #fff">Fitness Exercise for Kids</p>
+			</div>
+			<div class="small-img-row">
+					<div class="small-img">
+					<img src="pic3.png">
+					<img src="play.png" class="play-btn" onclick="playVideo('videoplayback (3).mp4')">
+				</div>
+				<p style="color: #fff">Exercise Song for Kids</p>
+			</div>
+		</div>
+	</div>
+	<div class="video-player" id="videoPlayer">
+		<video width="100%" controls autoplay id="myvids">
+			<source src="videoplayback(1).mp4" type="video/mp4">
+		</video>
+		<img src="close.png" class="close-btn" onclick="stopVideo()">
+			</div>
+	<script>
+		var videoPlayer = document.getElementById("videoPlayer");
+		var myvids = document.getElementById("myvids");
+		function stopVideo(){
+			videoPlayer.style.display = "none";
+			myvids.pause();
+		}
+		function playVideo(file){
+			myvids.src = file;
+			videoPlayer.style.display = "block"
+		}
+	</script>
+</body>
+</html>

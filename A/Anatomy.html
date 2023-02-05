@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title> Organs </title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+  }
+
+  body{
+    display: grid;
+    column-gap: 1px;
+    grid-template-columns: auto auto auto;
+    overflow-x: hidden;
+    justify-content: center;
+    background: white;
+  }
+
+  .title {
+  position: absolute;
+  display: inline-flex;
+  padding: 10px;
+  margin-left: 40em;
+  margin-top: 10px;
+  }
+
+  .title h1{
+    font-size: 30px;
+    color: #172B34;
+    font-weight: 700;
+  }
+
+  .div {
+  position: absolute;
+  display: inline-flex;
+  width: 90%;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 90px; 
+  }
+
+  .div p{
+    font-size: 20px;
+    color: #172B34;
+    text-align: justify;
+    font-weight: 300;
+    padding-left: 430px;
+  }
+
+
+
+  .close img{
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -50px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .container{
+    top: 8em;
+    position: relative;
+    width: 350px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    margin-top: 5em;
+}
+
+  .container .card{
+    position: relative;
+    height: 430px;
+    background: #172B34;
+    margin: 25px 40px;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+  }
+
+  .container .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -90px;
+    box-shadow: 0 5px 20px rbga(0, 0, 0, 1.2);
+  }
+
+  img{
+    width: 14em;
+    height: 15em;
+    position: relative;
+  }
+
+  .imgBx h2{
+    font-size: 30px;
+  }
+
+  .imgBx p{
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .imgBx:hover img{
+    transform: scale(1.1);
+  }
+
+  .button a
+{
+  position: absolute;
+  top: 1905px;
+  left: 630px;
+  font-size: 1em;
+  background: transparent;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #111;
+  transition: 0.2s;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.button a:hover
+{
+  letter-spacing: 3px;
+  background: #21cdd3;
+}
+
+.text p{
+  position: absolute;
+  top: 1970px;
+  left: 630px;
+  color: white;
+}
+
+</style>
+
+<body>
+
+<div class="title">
+    <h1> Anatomy </h1>
+  </div>
+
+<div class="div">
+        <p> Organs of the body and their functions </p>
+    </div>
+
+<div class = "container">
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="brain.png">
+			</a>
+			<h2> Brain </h2>
+			<p>The brain is a complex organ that controls thought, memory, emotion, touch, motor skills, vision, breathing, temperature, hunger and every process that regulates our body.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class = "container">
+	<h1></h1>
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="eye.png">
+			</a>
+			<h2> Eye </h2>
+			<p> The human eye is an organ that detects light and sends signals along the optic nerve to the brain. Perhaps one of the most complex organs of the body, the eye is made up of several parts and each individual part contributes to your ability to see.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class = "container">
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="heart.png">
+			</a>
+			<h2> Heart </h2>
+			<p> The heart is a pump, usually beating about 60 to 100 times per minute. With each heartbeat, the heart sends blood throughout our bodies, carrying oxygen to every cell. After delivering the oxygen, the blood returns to the heart. The heart then sends the blood to the lungs to pick up more oxygen.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class = "container">
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="lungs.png">
+			</a>
+			<h2> Lungs </h2>
+			<p> Your lungs are a pair of organs in your chest. They have a spongy texture and are pinkish-gray in color.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class = "container">
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="kidney.png"> 
+			</a>
+			<h2> Kidney </h2>
+			<p> One of a pair of organs in the abdomen. The kidneys remove waste and extra water from the blood (as urine) and help keep chemicals (such as sodium, potassium, and calcium) balanced in the body. The kidneys also make hormones that help control blood pressure and stimulate bone marrow to make red blood cells.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class = "container">
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="stomach.png">
+			</a>
+			<h2> Stomach </h2>
+			<p> The stomach is a J-shaped organ that digests food. It produces enzymes (substances that create chemical reactions) and acids (digestive juices). This mix of enzymes and digestive juices breaks down food so it can pass to your small intestine. Your stomach is part of the gastrointestinal (GI) tract.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class = "container">
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="liver.png">
+			</a>
+			<h2> Liver </h2>
+			<p> The liver is an organ about the size of a football. It sits just under your rib cage on the right side of your abdomen. The liver is essential for digesting food and ridding your body of toxic substances. Liver disease can be inherited (genetic).
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class = "container">
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="intestine.png">
+			</a>
+			<h2> Intestine </h2>
+			<p> The intestine is a muscular tube which extends from the lower end of your stomach to your anus, the lower opening of the digestive tract. It is also called the bowel or bowels.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class = "container">
+	<div class = "card">
+		<div class = "imgBx">
+			<a href="#">
+				<img src="bladder.png">
+			</a>
+			<h2> Bladder </h2>
+			<p> A hollow, muscular, balloon-shaped organ that expands as it fills with urine. The bladder sits in your pelvis between your hip bones. A normal bladder acts like a reservoir. It can hold 1.5 to 2 cups of urine.
+			</p>
+		</div>
+	</div>
+</div>
+
+
+	<div class="button" style="text-align: center" >
+<a href="http://localhost/Final%20Project/front.html"> Back </a>
+</div>
+
+<div class="text">
+<p> Thank you </p>
+</div>
+
+</body>
+
+</html>

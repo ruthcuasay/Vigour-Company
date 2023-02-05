@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+</head>
+<body style="background-color: #fff">
+  <script src="gallery.js"></script>
+    <link rel="stylesheet" type="text/css" href="gallery2.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<header>
+    <div class="gallery">
+      
+      <nav>
+
+        <ul>
+          <li><h1><span style="color:#172B34">Vigour </span><span style="color:#21cdd3"> Company</span></h1></li>
+         <li><a href="index.html">Home</a></li>
+          <li><a href="front.html">Anatomy</a></li>
+          <li><a href="nutrition2.html">Nutrition Guide</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="gallery2.html">Gallery</a></li>
+          <li><a href="registration.html">Booking</a></li>
+          
+        </ul>
+      </nav>
+
+  <h2>Children Fitness in Action</h2>
+    <div class="row">
+
+        <div class="col">
+            <div class="content">
+                <img src="1exer.png" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="content">
+                <img src="12exer.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="content">
+                <img src="11exer.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="content">
+                <img src="10exer.jpg" onclick="openLightbox();toSlide(4)" class="hover-shadow preview" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="content">
+                <img src="9exer.jpg" onclick="openLightbox();toSlide(5)" class="hover-shadow preview" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="content">
+                <img src="7exer.jpg" onclick="openLightbox();toSlide(6)" class="hover-shadow preview" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="content">
+                <img src="2exer.jpg" onclick="openLightbox();toSlide(7)" class="hover-shadow preview" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="content">
+                <img src="16exer.png" onclick="openLightbox();toSlide(8)" class="hover-shadow preview" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="content">
+                <img src="4exer.jpg" onclick="openLightbox();toSlide(9)" class="hover-shadow preview" />
+            </div>
+        </div>
+        
+          
+
+    </div>
+
+
+
+    <div id="Lightbox" class="modal">
+        <span class="close pointer" onclick="closeLightbox()">&times;</span>
+        <div class="modal-content">
+            <div class="slide">
+                <img src="1exer.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="12exer.jpg" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="11exer.jpg" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="10exer.jpg" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="9exer.jpg" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="7exer.jpg" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="2exer.jpg" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="16exer.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="4exer.jpg" class="image-slide" />
+            </div>
+            
+            
+            
+            
+            <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+    </div>
+</body>
+</body>
+
+</body>
+</html>

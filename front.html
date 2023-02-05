@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Anatomy </title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+ *{
+  	margin: 0;
+  	padding: 0;
+  	font-family: "Poppins" , sans-serif;
+  }
+
+  body{
+  	display: flex;
+    justify-content: center;
+    font-weight: 800;
+  }
+
+  .div {
+  position: absolute;
+  display: inline-flex;
+  width: 100%;
+  padding: 5px;
+  padding-right: 5px; 
+  }
+
+
+
+nav ul li h1{
+  padding-right: 400px;
+}
+ 
+
+nav ul {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+}
+
+nav a {
+  color: #172B34;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #21cdd3;
+
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #444;
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #21cdd3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.myDiv
+{
+  position: relative;
+  right: 0;
+  width: 600px;
+  height: 80px;
+  padding: 100px;
+  display: flex;
+  margin-right: 500px;
+  margin-top: 40px;
+}
+
+.text
+{
+  position: relative;
+  z-index: 5;
+
+}
+
+.text h2
+{
+  font-size: 4em;
+  font-weight: 800;
+  color: #172B34;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text h3
+{
+  font-size: 3em;
+  font-weight: 700;
+  color: #172B34;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #172B34;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #172B34;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.text a:hover
+{
+  letter-spacing: 3px;
+  background: #21cdd3;
+}
+
+img{
+	position: absolute;
+	display: flex;
+	width: 500px;
+	height: 500px;
+	float: right;
+	margin-left: 600px;
+	margin-top: -280px;
+}
+
+</style>
+
+
+<body>
+
+    <div class="div">
+      
+
+      <nav>
+
+        <ul>
+          <li><h1><span style="color:#172B34">Vigour </span><span style="color:#21cdd3"> Company</span></h1></li>
+         <li><a href="index.html">Home</a></li>
+          <li><a href="front.html">Anatomy</a></li>
+          <li><a href="nutrition2.html">Nutrition Guide</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="gallery2.html">Gallery</a></li>
+          <li><a href="registration.html">Booking</a></li>
+        
+      
+    </div>
+  </div>
+  
+
+	<div class="myDiv">
+		<header>
+			<h2> Anatomy </h2>
+		</header>
+		
+		<div class="text">
+			<h2> The body is the instrument  </h2>
+			<h3> of our hold on the world.</h3>
+			<img src="bono.png">
+			<p>"Only by understanding how the world around us works, can we understand our bodies and live well in and with nature and among others." <br> - Julia H Sun </p>
+			  <a href="http://localhost/Final%20Project/A/Anatomy.html"> Organs </a>
+			  <a href="http://localhost/Final%20Project/B/bm.html"> Bones and Muscles </a>	
+			  </div>
+ 
+</body>
+</html>

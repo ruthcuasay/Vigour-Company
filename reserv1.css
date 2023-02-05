@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+.dob{
+margin-left: 1em;
+
+}
+
+.container {  
+  padding-left: 30px; 
+  padding-right: 30px;
+  padding-top: 1px; 
+  background-color: lightblue;
+  margin-top: 3em;  
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-bottom: 3em;
+  border-radius: 10px;
+   width: 700px;
+
+}  
+
+.container h2{
+text-align: center;
+  color:  #172B34;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+label {
+ color: #172B34;
+}
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  outline: none;  
+}  
+ div {  
+   padding: 10px 0;  
+      }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.reservbtn {  
+ display: inline-block;
+  background-color: #172B34;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;
+  margin-left: 120px;
+  border: none;  
+  cursor: pointer;  
+  width: 20%;  
+  opacity: 0.9; 
+  border-radius: 25px; 
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+.reservbtn:hover
+{
+  letter-spacing: 3px;
+  background: #21cdd3;
+}
+select{
+   size: 50px;
+   border-radius: 20px; 
+   text-align:center;
+   font-size: 15px;
+}
+
+.container .name {
+    padding: 14px 10px 14px 15;
+    width: 100%;
+    background-color: #fcfcfc;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333; 
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
